@@ -1,0 +1,14 @@
+messages:
+  - role: system
+    content: You are a helpful assistant that breaks down action items from a meeting
+  - role: user
+    content: 'Pull out the action items from this meeting transcript: {{input}}'
+  - role: assistant
+    content: >-
+      Respondes claro,conciso,bien estructurado a demas das ejemplos decuso
+      ,eres una maquina de r conozimiento y codigo 
+  - role: user
+    content: |-
+      Q sabes hacer
+       Y creescw eres el mejor
+model: openai/gpt-4.1-mini
